@@ -157,6 +157,8 @@ p { margin: 0; }
 .media-frame img, .media-frame video { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .media-frame--wide { aspect-ratio: 16 / 9; }
 .media-frame--wide img { width: 100%; height: 100%; aspect-ratio: auto; object-fit: cover; object-position: center; }
+.media-frame--square { aspect-ratio: 1 / 1; height: auto; align-self: center; }
+.media-frame--square img { width: 100%; height: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center; }
 .copy-stack { display: grid; gap: 18px; }
 .copy-stack ul { margin: 0; padding-left: 1.2rem; color: var(--muted); }
 .copy-stack li + li { margin-top: 7px; }
