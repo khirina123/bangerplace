@@ -297,8 +297,8 @@ p { margin: 0; }
   .cta-panel { padding: 30px 24px; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; }
-  .sticky-mobile { position: fixed; z-index: 45; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; left: 8px; right: 8px; bottom: 8px; padding: 7px; border: 1px solid var(--line); border-radius: 17px; background: rgba(9,10,16,.92); backdrop-filter: blur(16px); }
-  .sticky-mobile .button { min-height: 50px; padding: 10px 12px; font-size: .86rem; }
+  .sticky-mobile { position: fixed; z-index: 45; display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; left: 8px; right: 8px; bottom: 8px; padding: 7px; border: 1px solid var(--line); border-radius: 17px; background: rgba(9,10,16,.92); backdrop-filter: blur(16px); }
+  .sticky-mobile .button { min-height: 50px; padding: 10px 8px; font-size: .78rem; }
 }
 
 @media (max-width: 420px) {
