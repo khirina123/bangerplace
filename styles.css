@@ -183,9 +183,15 @@ p { margin: 0; }
 .gallery img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
 .gallery figure:hover img { transform: scale(1.035); }
 
-.review { min-height: 220px; display: flex; flex-direction: column; justify-content: space-between; }
-.review blockquote { margin: 0; color: var(--muted); }
-.review footer { margin-top: 24px; font-size: .88rem; font-weight: 800; }
+.review { min-height: 260px; display: flex; flex-direction: column; justify-content: space-between; }
+.review blockquote { margin: 12px 0 0; color: var(--muted); }
+.review footer { display: grid; gap: 5px; margin-top: 24px; font-size: .88rem; }
+.review footer strong { color: var(--text); font-size: 1rem; }
+.review__rating { color: #ffd84d; font-size: 1.05rem; letter-spacing: .12em; }
+.review__rating--video { color: var(--cyan); font-size: .82rem; font-weight: 850; letter-spacing: .08em; }
+.review__meta { color: var(--muted); }
+.review__link { width: fit-content; margin-top: 5px; color: var(--cyan); font-weight: 800; text-decoration: none; }
+.review__link:hover { text-decoration: underline; }
 .review--placeholder { border-style: dashed; box-shadow: none; }
 
 .section-actions { margin-top: 28px; }
